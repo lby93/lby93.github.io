@@ -82,7 +82,7 @@ label{
 	margin:5px;
 }
 .tips1{
-	margin-left: 514px;
+	margin-left: 315px;
 	color:#B0B0B0;
 	font-size:15px;
 	display: block;
@@ -113,4 +113,5 @@ label{
 textarea{
 	width:50%;
 	margin-top: 7px;
+	margin: 3px;
 }
