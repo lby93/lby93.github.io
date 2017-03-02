@@ -61,7 +61,7 @@ img.small{
 	font-size:12px;
 }
 table{
-	width:1300px;
+	width:100%
 }
 th{
 	text-align:left;
@@ -75,24 +75,22 @@ td{
 tr.sum{
 	background:#B8B8B8;
 }
-.aligning{
-	position: absolute;
-	right:800px;
+label{
+	display:inline-block;
+	text-align: right;
+	width:500px;
 	margin:5px;
 }
 .tips1{
-	position: relative;
-	left:590px;
+	margin-left: 514px;
 	color:#B0B0B0;
 	font-size:15px;
 	display: block;
 }
 .tips{
-	position: relative;
-	left:580px;
-	margin:5px;
+	float:left;
 }
-.aligning6{
+.aligning{
 	margin:10px auto 0px auto;
 	width:1200px;
 	display: block;
@@ -111,4 +109,7 @@ tr.sum{
 	text-align:center;
 	padding-top:40px;
 	font-size: 12px;
+}
+textarea{
+	margin-left:5px;
 }
