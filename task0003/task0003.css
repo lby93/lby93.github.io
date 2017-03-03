@@ -41,7 +41,8 @@
 .article{
 	background: #eee;
 	border: 1px solid #999;
-	height: 410px;
+	height: auto;
 	width: auto;
+	overflow: auto;
 	padding:20px;
 }
