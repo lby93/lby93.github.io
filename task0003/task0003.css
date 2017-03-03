@@ -1,0 +1,47 @@
+.box1{
+	float:left;
+	width:160px;
+	height:auto;
+	padding:20px;
+	background: white;
+	border: 1px solid #999;
+}
+.box2{
+	float:right;
+	width:80px;
+	height:auto;
+	padding:20px;
+	background: white;
+	border: 1px solid #999;
+}
+.box2 img{
+	display: block;
+	width:80px;
+	height:80px;
+	margin-bottom: 10px;
+}
+.box1 img{
+	width:80px;
+	height:80px;
+	display: block;
+	float:left;
+}
+.box1 p{
+	float:right;
+	margin-top: 0px;
+}
+.box3{
+	width:auto;
+	background: white;
+	padding:20px;
+	height:auto;
+	margin:0px 140px 0px 220px;
+	border: 1px solid #999;
+}
+.article{
+	background: #eee;
+	border: 1px solid #999;
+	height: 410px;
+	width: auto;
+	padding:20px;
+}
