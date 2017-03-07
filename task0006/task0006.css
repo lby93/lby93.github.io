@@ -29,6 +29,9 @@ body{
 	font-size: 12px;
 	font-family: "SimHei";
 }
+.box1{
+	margin-top: 35px;
+}
 .date{
 	position: absolute;
 	bottom:0;
@@ -40,7 +43,6 @@ body{
 .left-image{
 	height:301px;
 	width:641px;
-	margin:25px 0px;
 	float:left;
 	background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488621749038&di=fd466c819e2aacc06316fd2b2e9a9c0b&imgtype=0&src=http%3A%2F%2Fimg02.tooopen.com%2Fimages%2F20150716%2Ftooopen_sy_134205298737.jpg);
 	background-size: 641px 301px;
@@ -60,7 +62,7 @@ body{
 	width:203px;
 	height:301px;
 	border-top:2px solid #cc8091;
-	margin:25px 48px;
+	margin:0px 48px;
 }
 .right-title{
 	font-family: "Microsoft YaHei" ;
@@ -116,7 +118,7 @@ body{
 	width:220px;
 	height: auto;
 	float: left;
-	margin:0px 10px;
+	margin:40px 10px;
 }
 .box2_left_title{
 	color: #418c59;
@@ -133,7 +135,7 @@ body{
 	width:205px;
 	height: auto;
 	float: left;
-	margin:0px 10px;
+	margin:40px 10px;
 }
 .box2_middle_title{
 	color: #d2994f;
@@ -149,7 +151,7 @@ body{
 .box2_right{
 	width:150px;
 	float: left;
-	margin:0px 10px;
+	margin:40px 10px;
 }
 .box2_right_title{
 	color: #cc7680;
@@ -166,7 +168,9 @@ body{
 	color: rgba(205,74,72,0.7);
 	font:italic 12px "微软雅黑";
 }
-
+.box3{
+	margin-top: 75px;
+}
 .box3_left{
 	width: 405px;
 	height: 610px;
@@ -248,12 +252,12 @@ body{
 	list-style: none;
 	font-size: 16px;
 	color: #5a5b5b;
-	line-height: 20px;
+	line-height: 36px;
 	font-family: "宋体";
 }
 li em{
 	float: left;
-	padding-top: 7px;
+	padding-top: 14px;
     border-color: transparent transparent #074375 transparent;
     border-style: solid;
     height:0px;
