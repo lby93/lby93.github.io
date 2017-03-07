@@ -1,0 +1,340 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	width:980px;
+	height:1386px;
+	margin-left: 45px;
+}
+.beforeheader{
+	width:892px;
+	height:61px;
+	position: relative;
+	border-bottom: 2px solid #938e8c;
+}
+.header{
+	width:110px;
+	height:61px;
+	background: #d45d5c;
+	position: relative;
+	/*display: table-cell;
+	vertical-align: bottom;*/
+}
+.headername{
+	position: absolute;
+	bottom:5px; 
+	left:2px;
+	color: #ffffff;
+	font-size: 12px;
+	font-family: "SimHei";
+}
+.date{
+	position: absolute;
+	bottom:0;
+	right: 0;
+	color: #d45d5c;
+	font-size: 12px;
+	font-family: "SimHei";
+}
+.left-image{
+	height:301px;
+	width:641px;
+	margin:25px 0px;
+	float:left;
+	background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488621749038&di=fd466c819e2aacc06316fd2b2e9a9c0b&imgtype=0&src=http%3A%2F%2Fimg02.tooopen.com%2Fimages%2F20150716%2Ftooopen_sy_134205298737.jpg);
+	background-size: 641px 301px;
+}
+.left-color{
+	border-left: 191px solid rgba(	60,179,113,0.25);
+	height: 301px;
+	float: left;
+}
+.right-color{
+	border-left: 191px solid rgba(	240,128,128,0.3);
+	height: 301px;
+	float: right;
+}
+.right-text{
+	float: left;
+	width:203px;
+	height:301px;
+	border-top:2px solid #cc8091;
+	margin:25px 48px;
+}
+.right-title{
+	font-family: "Microsoft YaHei" ;
+	font-size: 24px;
+	color: #000000;
+	line-height: 40px;
+	font-variant:small-caps;
+	text-decoration:underline;
+}
+.tips{
+	font:italic 12px "KaiTi";
+	color:#676767;
+	line-height: 10px;
+}
+.number700{
+	font: oblique 116px "KaiTi";
+	color:#75b86b;
+	font-weight: bold;
+	margin-left: -10px;
+}
+.number32{
+	color:#cc8091;
+	font-family:  "微软雅黑";
+	margin-left: 20px;
+}
+.number32_first{
+	font-size: 55px;
+	float: left;
+
+}
+.number32_next{
+	height:60px;
+	float: left;
+	position: relative;
+}
+.number32_second{
+	font-size: 21px;
+	position: absolute;
+	bottom: 12px;
+}
+.number32_third{
+	font-size: 12px;
+	position: absolute;
+	bottom: 0;
+}
+.box2{
+	width:641px;
+	height: auto;
+	overflow: auto;
+	font-family: "微软雅黑";
+}
+.box2_left{
+	width:220px;
+	height: auto;
+	float: left;
+	margin:0px 10px;
+}
+.box2_left_title{
+	color: #418c59;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.box2_left_content{
+	font-family: "宋体";
+	line-height: 16px;
+	font-size: 12px;
+	color: #767777;
+}
+.box2_middle{
+	width:205px;
+	height: auto;
+	float: left;
+	margin:0px 10px;
+}
+.box2_middle_title{
+	color: #d2994f;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.box2_middle_content{
+	font-family: "微软雅黑";
+	line-height: 16px;
+	font-size: 12px;
+	color: rgba(35,24,21,0.7);
+}
+.box2_right{
+	width:150px;
+	float: left;
+	margin:0px 10px;
+}
+.box2_right_title{
+	color: #cc7680;
+	text-decoration: underline;
+	font-weight: bold;
+}
+.box2_right_content{
+	font-family: "微软雅黑";
+	line-height: 20px;
+	font-size: 12px;
+	color: rgba(35,24,21,0.7);
+}
+.box2_right span{
+	color: rgba(205,74,72,0.7);
+	font:italic 12px "微软雅黑";
+}
+
+.box3_left{
+	width: 405px;
+	height: 610px;
+	float: left;
+	margin-right: 25px;
+}
+.box3_right{
+	width: 458px;
+	height: 610px;
+	float: left;
+}
+.box3_left1{
+	font:bold 42px "黑体";
+	color: #11456b;
+	border-bottom: 2px solid #11456b;
+}
+.box3_left1 p{
+	margin-bottom: 16px;
+}
+.box3_left1 span{
+	font-size: 72px;
+	font-style: italic;
+	color: #f5e327;
+}
+.box3_left2{
+	margin: 25px 0px;
+	font:12px "宋体";
+	color: #767777;
+}
+.box3_left2 p{
+	line-height: 16px;
+	text-indent: 2em;
+}
+.box3_left2 div{
+	font-size: 70px;
+	color: #f5e327;
+	float: left;
+	font-family: "微软雅黑";
+}
+.box3_right1{
+	height: 61px;
+	width: 458px;
+	margin: 0px;
+	padding-top: 214px;
+	background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1488717642737&di=3ccd04c393b07890cf89628fcb3691bd&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F13%2F98%2F39%2F91S58PICUrg_1024.jpg);
+	background-size: 458px 275px;
+}
+.box3_right11{
+	height: 61px;
+	display: table-cell;
+	vertical-align: middle;
+	background:rgba(0,0,0,0.5);
+}
+.box3_img{
+	border-left: 3px solid #72b16a;
+	height: 44px;
+	width: 407px;
+	margin-left: 38px;
+	font:italic 12px  "微软雅黑";
+	color: #72b16a;
+	line-height: 48px;
+	padding-left: 10px;
+	word-spacing: 140%;
+}
+.box3_img span{
+	font-size: 26px;
+	color: #ffffff;
+	font-style: normal;
+	position: relative;
+	top: -3px;
+}
+.box3_right2{
+	background-color: #eeeed6;
+	margin-top:30px;
+	overflow: auto;
+}
+.box3_right2 ul{
+	margin-left: 10px;
+	list-style: none;
+	font-size: 16px;
+	color: #5a5b5b;
+	line-height: 20px;
+	font-family: "宋体";
+}
+li em{
+	float: left;
+	padding-top: 7px;
+    border-color: transparent transparent #074375 transparent;
+    border-style: solid;
+    height:0px;
+    width:0px;
+    border-width: 0px 4px 7px 4px;
+    margin-right: 5px;
+}
+.box3_right2 ul span{
+	font-size: 12px;
+	font-style: italic;
+	text-align: right;
+}
+.box3_right2_left{
+	background-color: #d45d5c;
+	height: 160px;
+	width: 260px;
+	color: #fff;
+	margin-top: 15px;
+	float: left;
+	display: table-cell;
+	vertical-align: middle;
+}
+.box3_right2_left1{
+	font:110px "微软雅黑";
+	float: left;
+
+}
+.box3_right2_left2{
+	height: 86px;
+	border-left: 2px solid #fff;
+	margin-left: 70px;
+	margin-top: 32px;
+	padding-left: 5px;
+}
+.box3_right2_left2 p{
+	font:12px "黑体";
+	line-height: 12px;
+	margin-top: 10px;
+}
+.box3_right2_right{
+	font:italic 14px  "黑体";
+	color: #5a5b5b;
+	width: 180px;
+	float: left;
+	overflow: hidden;
+	margin-top: 25px;
+}
+.box3_right2_right p{
+	margin-top: 5px;
+}
+.box3_right2_right_left{
+	font:72px "黑体";
+	color: #d45d5c;
+	float: left;
+	height: 20px;
+	margin-left: -30px;
+    margin-top: -10px;
+}
+.box3_right2_right_right{
+	font:72px "黑体";
+	color: #d45d5c;
+	float: right;
+	margin-top: -20px;
+	margin-right: -20px;
+}
+.box3,.box2,.box1{
+	overflow: auto;
+}
+.footer{
+	width:892px;
+	height: 40px;
+	border-top: 1px solid #938e8c;
+	color: #d45d5c;
+	font-size: 12px;
+	font-family: "SimHei";
+	text-align: right;
+	float: left;
+}
+.box3_left2 img{
+	height: 290px;
+	width: 165px;
+	float: right;
+	padding: 20px;
+}
